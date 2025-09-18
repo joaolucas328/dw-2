@@ -50,3 +50,39 @@ h3 {
     color:white;
     font-family: arial;
 }
+.caixa {
+    align-items: center;
+    justify-content:center;
+    display: flex;
+    height: 48px;
+    width: 100vw;
+    margin: 32px auto;
+    gap: 10px;
+}
+
+select {
+    width: 100%;
+    max-width: 600px;
+    padding: 12px 16px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #000;
+    background-color: #e6e9ff; /* fundo do select */
+    border: 2px solid #001b54; /* borda azul escura */
+    border-radius: 8px;
+    appearance: none; /* remove estilo nativo do select */
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    position: relative;
+}
+.ContainerImagens {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.seta1{
+    transform: rotate(180deg);
+}
