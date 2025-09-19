@@ -20,3 +20,59 @@ faixa topo #061E44;
 
 faixa baixa
 rgb(18, 41, 95)
+
+
+
+APAGAR
+
+
+<!-- segundo -->
+       <div class="caixaDesc">
+
+            <div class="Cartaz">
+                <!-- img -->
+            </div>
+            
+            <div class="desc">
+                <!-- desc do filme -->
+            </div>
+
+       </div>
+
+       <div class="linha"></div>
+       <!-- linha pra separar -->
+       <!-- fim-->
+
+       <!-- terceiro -->
+       <div class="caixaDesc">
+
+            <div class="Cartaz">
+                <!-- img -->
+            </div>
+            
+            <div class="desc">
+                <!-- desc do filme -->
+            </div>
+
+       </div>
+
+       <div class="linha"></div>
+       <!-- linha pra separar -->
+       <!-- fim-->
+
+       <!-- quarta -->
+       <div class="caixaDesc">
+
+        <div class="Cartaz">
+            <!-- img -->
+        </div>
+        
+        <div class="desc">
+            <!-- desc do filme -->
+        </div>
+
+        </div>
+
+        <div class="linha"></div>
+        <!-- linha pra separar -->
+        <!-- fim-->

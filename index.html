@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <style>
-   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;700;900&display=swap');
     </style>
+
 <body>
     <div class="content">
         <div class="faixaSup">
@@ -23,26 +25,30 @@
             <div class="locais">
                 <img src="point.png" alt="">
                 <h3 style="font-size: 14px;">SEU CINEMA:</h3>
-                
+
             </div>
         </div>
-        <div class="NomeGrande"><img src="cineNome.png"  height="90px"></div> 
-        <div class="Nomepequeno"> <h3>Programação │  Ingressos Salas │ Especiais │ Serviços │ Promoções │ Dúvidas?</h3> <img src="clubcinepolis.svg" alt=""></div>   
+        <div class="NomeGrande"><img src="cineNome.png" height="90px"></div>
+        <div class="Nomepequeno">
+            <h3>Programação │ Ingressos Salas │ Especiais │ Serviços │ Promoções │ Dúvidas?</h3> <img
+                src="clubcinepolis.svg" alt="">
+        </div>
 
         <div class="ContainerSlider">
-            <button id="voltar" alt="voltar"></button>
             <div class="imagens">
                 <img src="cinepolisImagem1.jpg" alt="desconto" class="slide">
                 <!-- <img src="cinepolisImagem2.png" alt="claro" class="slide"> -->
-                <!-- <img src="cinepolisImagem3.jpg" alt=""> -->
+                <!-- <img src="cinepolisImagem3.jpg" alt="" clas="slide"> -->
             </div>
             <button id="avançar" alt="avançar"></button>
         </div>
 
-        <h1 style="display: flex; justify-content: center; font-size: 50px;">ESCOLHA SEU CINEMA PREFERIDO!</h1>
+        <h1 class="titulo">ESCOLHA SEU CINEMA PREFERIDO!</h1>
 
         <div class="caixaSelecione">
-            <div class="texto"><h3 style="color: black;font-size: 30px;">Confira │ Em Cartaz</h3></div>
+            <div class="texto">
+                <h3 class="confira">Confira │ Em Cartaz</h3>
+            </div>
             <div class="local">
                 <select name="localidade" required>
                     <option value="" disabled selected>POR FAVOR, SELECIONE UMA LOCALIDADE</option>
@@ -50,14 +56,14 @@
                     <option value="rj">Rio de Janeiro</option>
                     <option value="mg">Minas Gerais</option>
                     <option value="tl">Três Lagoas</option>
-                
-                  </select>
+
+                </select>
             </div>
         </div>
         <div class="ContainerImagens">
 
             <div class="seta1">
-                <img src="seta.png" alt="" width="50px" height="50px">
+                <img src="setaSemfundo.png" alt="" width="100px" height="100px">
             </div>
 
             <div class="imgFilme">
@@ -77,51 +83,190 @@
 
             <div class="imgFilme">
                 <img src="filme4.jpg" alt="bat" width="224px" height="332px">
-                  <h3 style="color: black;">Lego Batman</h3>
+                <h3 style="color: black;">Lego Batman</h3>
             </div>
 
             <div class="seta">
-                <img src="seta.png" alt="" width="50px" height="50px">
+                <img src="setaSemfundo.png" alt="" width="100px" height="100px">
             </div>
 
-        
+
         </div>
-    <div class="caixaSelecione">
-        <div class="texto"><h3 style="color: black;font-size: 30px;">Confira │ Em Breve</h3></div>
-        <div class="local">
-            <select name="localidade" required>
-                <option value="" disabled selected>POR FAVOR, SELECIONE UMA LOCALIDADE</option>
-                <option value="sp">São Paulo</option>
-                <option value="rj">Rio de Janeiro</option>
-                <option value="mg">Minas Gerais</option>
-                <option value="tl">Três Lagoas</option>
-              </select>
+        <div class="caixaSelecione">
+            <div class="texto">
+                <h3 class="confira">Confira │ Em Breve</h3>
+            </div>
+            <div class="local">
+                <select name="localidade" required>
+                    <option value="" disabled selected>POR FAVOR, SELECIONE UMA LOCALIDADE</option>
+                    <option value="sp">São Paulo</option>
+                    <option value="rj">Rio de Janeiro</option>
+                    <option value="mg">Minas Gerais</option>
+                    <option value="tl">Três Lagoas</option>
+                </select>
+            </div>
         </div>
-    </div>
 
         <div class="ContainerDias">
             <div class="seta1">
-                <img src="seta.png" alt="" width="50px" height="50px">
+                <img src="setaSemfundo.png" alt="" width="50px" height="50px">
             </div>
-            <div class="dias" alt="seg">  <h3 style="color: black;"> SEG. <br> 22/09</h3></div>
+            <div class="dias" alt="seg">
+                <h3 style="color: black;"> SEG. <br> 22/09</h3>
+            </div>
 
-            <div class="dias" alt="ter">  <h3 style="color: black;">TER. <br> 23/09</h3></div>
+            <div class="dias" alt="ter">
+                <h3 style="color: black;">TER. <br> 23/09</h3>
+            </div>
 
-            <div class="dias" alt="quar">  <h3 style="color: black;">QUA. <br> 24/09</h3></div>
+            <div class="dias" alt="quar">
+                <h3 style="color: black;">QUA. <br> 24/09</h3>
+            </div>
 
-            <div class="dias" alt="quin">  <h3 style="color: black;">QUI. <br> 25/09</h3></div>
+            <div class="dias" alt="quin">
+                <h3 style="color: black;">QUI. <br> 25/09</h3>
+            </div>
 
-            <div class="dias" alt="sex">  <h3 style="color: black;">SEX. <br> 26/09</h3></div>
+            <div class="dias" alt="sex">
+                <h3 style="color: black;">SEX. <br> 26/09</h3>
+            </div>
 
-            <div class="dias" alt="sab">  <h3 style="color: black;">SÁB. <br> 27/09</h3></div>
+            <div class="dias" alt="sab">
+                <h3 style="color: black;">SÁB. <br> 27/09</h3>
+            </div>
 
-            <div class="dias" alt="dom">  <h3 style="color: black;">DOM. <br> 28/09</h3></div>
+            <div class="dias" alt="dom">
+                <h3 style="color: black;">DOM. <br> 28/09</h3>
+            </div>
 
             <div class="seta">
-                <img src="seta.png" alt="" width="50px" height="50px">
+                <img src="setaSemfundo.png" alt="" width="50px" height="50px">
             </div>
 
         </div>
-</div>
+
+        <!-- primeiro -->
+        <div class="caixaDesc">
+
+            <div class="Cartaz">
+                <img src="filme1.jpg" alt="kimetsu" width="190px" height="250px" class="kimetsu">
+            </div>
+
+            <div class="desc">
+                <h3 class="confira">Demon Slayer: Castelo Infinito</h3> <br>
+                <p>18 • 2 hr 36 min</p> <br> <br>
+                <div class="desc2">
+                    <h3 class="texto">Direção:</h3>
+                    <p>Haruo Sotozaki</p>
+                </div>
+
+                <div class="desc2">
+                    <h3 class="texto">Elenco:</h3>
+                    <p>Natsuki Hanae, Akari Kito, Hiro Shimono</p>
+                </div>
+
+                <div class="desc2">
+                    <h3 class="texto">Gênero:</h3>
+                    <p>Animação, Ação, Filme para família</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="linha"></div>
+    <!-- linha pra separar -->
+    <!-- fim-->
+
+            <!-- 2 -->
+            <div class="caixaDesc">
+
+                <div class="Cartaz">
+                    <img src="filme2.jpg" alt="kimetsu" width="190px" height="250px" class="kimetsu">
+                </div>
+
+                <div class="desc">
+                    <h3 class="confira">Demon Slayer: Castelo Infinito</h3> <br>
+                    <p>18 • 2 hr 36 min</p> <br> <br>
+                    <div class="desc2">
+                        <h3 class="texto">Direção:</h3>
+                        <p>Haruo Sotozaki</p>
+                    </div>
+
+                    <div class="desc2">
+                        <h3 class="texto">Elenco:</h3>
+                        <p>Natsuki Hanae, Akari Kito, Hiro Shimono</p>
+                    </div>
+
+                    <div class="desc2">
+                        <h3 class="texto">Elenco:</h3>
+                        <p>Animação, Ação, Filme para família</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+            <div class="linha"></div>
+
+            <!-- 3 -->
+            <div class="caixaDesc">
+
+                <div class="Cartaz">
+                    <img src="fiilme3.jpg" alt="kimetsu" width="190px" height="250px" class="kimetsu">
+                </div>
+    
+                <div class="desc">
+                    <h3 class="confira">Demon Slayer: Castelo Infinito</h3> <br>
+                    <p>18 • 2 hr 36 min</p> <br> <br>
+                    <div class="desc2">
+                        <h3 class="texto">Direção:</h3>
+                        <p>Haruo Sotozaki</p>
+                    </div>
+    
+                    <div class="desc2">
+                        <h3 class="texto">Elenco:</h3>
+                        <p>Natsuki Hanae, Akari Kito, Hiro Shimono</p>
+                    </div>
+    
+                    <div class="desc2">
+                        <h3 class="texto">Elenco:</h3>
+                        <p>Animação, Ação, Filme para família</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="linha"></div>
+
+        <!-- 4 -->
+        <div class="caixaDesc">
+
+            <div class="Cartaz">
+                <img src="filme4.jpg" alt="kimetsu" width="190px" height="250px" class="kimetsu">
+            </div>
+
+            <div class="desc">
+                <h3 class="confira">Demon Slayer: Castelo Infinito</h3> <br>
+                <p>L • 1 hr 45 min</p> <br> <br>
+                <div class="desc2">
+                    <h3 class="texto">Direção:</h3>
+                    <p>Chris McKay</p>
+                </div>
+
+                <div class="desc2">
+                    <h3 class="texto">Elenco:</h3>
+                    <p>Duda Ribeiro, Andreas Avancini, Marcio Simões</p>
+                </div>
+
+                <div class="desc2">
+                    <h3 class="texto">Gênero:</h3>
+                    <p>Animação, Ação, Filme para família</p>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
 </body>
+
 </html>

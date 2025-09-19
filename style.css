@@ -1,6 +1,11 @@
 * {
     padding: 0;box-sizing: border-box;margin: 0;}
 
+body {
+    overflow-x: hidden;
+    background-color: #e6e9ffd0;
+}
+
 .content {
     width: 100vw;
     height: 100%;
@@ -19,7 +24,7 @@
     left: 0;
 }
 .logos {
-    width: 20vw;
+    width: 300px;
     height: 20px;    
     display: flex;
     justify-content: center;
@@ -59,6 +64,10 @@ h3 {
 h1 {
     font-family: 'Montserrat';
 }
+
+p {
+    font-family: 'Montserrat';
+}
 .caixaSelecione {
     align-items: center;
     justify-content:center;
@@ -94,6 +103,13 @@ select {
 
 .seta1{
     transform: rotate(180deg);
+    width:"50px"; 
+    height:"50px"
+}
+
+.seta {
+    width:"50px";
+    height: "50px";
 }
 
 .dias {
@@ -106,7 +122,8 @@ select {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 10px
+    gap: 10px;
+    margin-bottom: 40px;
 }
 
 .imgFilme {
@@ -126,4 +143,55 @@ select {
 
 .ContainerSlider {
    height: 686px;
+   width: 100vw;
+   justify-content: center;
+   display: flex;
+}
+
+.titulo {
+    display: flex; 
+    justify-content: center; 
+    font-size: 50px;
+    margin-top: 20px;
+}
+.confira {
+    color: black;font-size: 30px;
+}
+
+.caixaDesc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 300px;
+    gap: 30px;
+}
+
+.Cartaz {
+    width: 190px;
+    height: 250px;
+}
+
+.texto{
+    font-size: 20px;
+    color: black;
+}
+
+.desc2{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.linha {
+    width: 1200px;
+    border: solid 1px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.kimetsu {
+    border-radius: 10px;
 }
