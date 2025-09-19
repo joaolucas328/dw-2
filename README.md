@@ -14,3 +14,9 @@ box-sizing: border-box	Inclui padding e borda dentro da largura total definida.
 position: relative	Permite posicionar elementos filhos (como uma seta customizada) de forma absoluta em relação ao <select>.
 
 ARRUMAR A FONTE
+
+cores azul
+faixa topo #061E44;
+
+faixa baixa
+rgb(18, 41, 95)
