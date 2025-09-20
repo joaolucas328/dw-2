@@ -31,13 +31,6 @@ body {
     align-items: center;
     gap: 20px;
 }
-.locais {
-    width: 20vw;
-    height: 20px;    
-    background-color: brown;
-    display: flex;
-    justify-content: center;
-}
 
 .NomeGrande {
     background-color: rgb(18, 41, 95);
@@ -194,4 +187,69 @@ select {
 
 .kimetsu {
     border-radius: 10px;
+}
+
+.linhaGrande {
+    width: 1200px;
+    border: solid 2px;
+    margin: 0 auto;
+    margin-top: 100px;
+    margin-bottom:100px;
+    border-color: #061E44;
+}
+
+.ContainerFinal {
+    width: 100vw;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(18, 41, 95);
+}
+
+.CaixaFinal {
+    width: 1000px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.linhaFinal {
+     width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #061E44;
+    justify-content: space-around;
+}
+
+.nomeFinal {
+    height: 450px;
+    width: 300px;
+}
+
+.nomeFinal2 {
+    height: 450px;
+    width: 300px;
+}
+
+.imgF {
+    width: 300px;
+}
+
+.textoFinal {
+    padding: 5px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 5px;
+}
+
+.nomeA {
+    height: 40px;
+    margin-right: 50px;
+    
 }
