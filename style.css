@@ -22,6 +22,7 @@ body {
     position: fixed;
     top:0;
     left: 0;
+    z-index: 2;
 }
 .logos {
     width: 300px;
@@ -96,8 +97,7 @@ select {
 
 .seta1{
     transform: rotate(180deg);
-    width:"50px"; 
-    height:"50px"
+    z-index: 1;
 }
 
 .seta {
@@ -253,3 +253,69 @@ select {
     margin-right: 50px;
     
 }
+
+.link  {
+    color: black;
+     text-decoration: none;
+
+}
+
+.ContainerS2 {
+    width: 1100px;
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+    align-self: center;
+}
+
+.textos {
+    width: 650px;
+}
+
+.cinemaSeletor {
+  font-family: Arial, sans-serif;
+  background: #e0e0f0;
+  padding: 20px;
+  width: 650px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.DiasSemana {
+  display: flex;
+  gap: 5px;
+  margin: 10px 0;
+}
+
+.DiasSemana button {
+  padding: 10px;
+  border: 1px solid #243b73;
+  border-radius: 5px;
+  background: white;
+  cursor: pointer;
+}
+
+.data {
+  margin-top: 10px;
+}
+
+.sessões {
+  margin-bottom: 10px;
+}
+
+.sessões p {
+  margin: 5px 0;
+}
+
+.sessões button {
+  padding: 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  background: #243b73;
+  color: white;
+  cursor: pointer;
+}
+
